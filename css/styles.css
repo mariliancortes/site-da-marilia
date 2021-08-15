@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 12px;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    margin-bottom: 0;
+}
+h1, h2{
+    /* Fonte para títulos: */
+    font-family: 'Dancing Script', cursive;
+}
+.div-branca{
+    background-color: white;
+    border-radius: 20px;
+}
+main h1, main h2{
+    background: #221123;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+button, .btn{
+    padding: 15px;
+    background-color: #ab1f40;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    border: none;
+}
+.btn:hover{
+    color: white;
+}
+
+.conteudo{
+    margin-top: 110px;
+}
+@media (min-width: 379px){
+    html{
+        font-size: 16px;
+    }
+    .conteudo{
+        margin-top: 145px;
+    }
+}
+@media (min-width: 756px){
+    html{
+        font-size: 18px;
+    }
+    .conteudo{
+        margin-top: 200px;
+    }
+}
+/*HEADER*/
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.div-header{
+    background-image: url("../img/universo.jpg");
+}
+h1 a{
+    text-decoration: none;
+    color: white;
+    text-shadow: 5px 5px black;
+}
+h1 a:hover{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    width: 100%;
+    background-color: #221123;
+    border-bottom: 1px solid black;
+}
+
+nav .menu{
+    list-style: none;
+    display: flex;
+}
+/*Link*/
+nav a{
+    text-decoration: none;
+    border-radius: 20px;
+    color: white;
+    padding: 0px 50px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    background: #ab1f40;
+    color:#fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;
+    text-shadow:0px 0px 5px #fff;
+}
+
+@media (min-width: 760px){
+    h1 a{
+        font-size: 4rem;
+    }
+    nav{
+        background-color: white;
+    }
+    nav a{
+        color: rgb(41, 12, 68);
+    }
+}
+
+/*ASSINATURA*/
+.assinatura{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: white;
+    border-radius: 20px;
+}
+.assinatura h3{
+    font-size: 2em;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.assinatura p{
+    max-width: 800px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.assinatura hr{
+    width: 200px;
+    height: 2px;
+    margin-bottom: 70px;
+    background-color: black;
+    border: none;
+}
+.assinatura form{
+    width: 80%;
+    max-width: 800px;
+}
+.assinatura input{
+    padding: 15px;
+    border: 1px solid #ab1f40;
+    border-radius: 4px;
+}
+
+@media (min-width: 379px){
+    .assinatura{
+        padding: 50px 50px;
+    }
+}
+
+/*CONTENT*/
+.content{
+    margin-top: 210px;
+    width: 100%;
+}
+
+@media (min-width: 379px){
+    .content{
+        margin-top: 150px;
+    }
+}
+@media (min-width: 760px){
+    .content{
+        margin-top: 200px;
+    }
+}
+
+/*FOOTER*/
+footer{
+    width: 100%; 
+    color: white;
+    text-shadow: 2px 2px black;
+    background-image: url("../img/universo.jpg");
+}
+
+/*HOME*/
+.banner-home{
+    width: 100%;
+}
+.link-saiba-mais{
+    text-decoration: none;
+    color: black;
+}
+.h4-sobre-min{
+    color: #ab1f40;
+    margin-bottom: 0;
+}
+.btn-contato{
+    width: 70%;
+    margin: 20px;
+    background-color: #f9ba4b;
+    color: black;
+}
+.titulo-aside{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    font-weight: bold;
+}
+.img-cantoras{
+    padding: 20px;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 576px){
+    .img-cantoras{
+        width: 50%;
+    }
+}
+
+@media (min-width: 760px){
+    .img-cantoras{
+        width: 90%;
+    }
+}
+
+/*SOBRE*/
+.marilia{
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+}
+/*VÍDEOS*/
+.videos-titulos{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    background-color: #ab1f40;
+    color: white;
+}
+/*CONTATO*/
+.div-form{
+    background-color: rgb(41, 12, 68);
+    border-radius: 20px;
+    color: white;
+}
+.form-contato{
+    width: 100%;
+    margin: 0 auto;
+}
+.form-contato input, .form-contato textarea{
+    width: 100%;
+}
+.form-contato input{
+    height: 40px;
+}
+.form-contato textarea{
+    height: 100px;
+}
+.img-redes{
+    width: 100%;
+}
+address{
+    font-size: 0.8rem;
+}
+@media (min-width: 300px){
+    address{
+        font-size: 1rem;
+    }
+}
+@media (min-width: 576px){
+    address{
+        font-size: 1rem;
+    }
+    .form-contato{
+        width: 80%;
+    }
+}
+/*NOT FOUND*/

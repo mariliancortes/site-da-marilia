@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO | Marília Nuunes Cortes</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/logomarilia.JPG">
+    <link rel="stylesheet" href="css/css-bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+    <header>
+        <div class="p-3 div-header">
+        <h1 class="text-center text-light"><a href="index.html">Marília Nunes Cortes</a></h1>
+        </div>
+        <nav class="navbar navbar-expand-md menu">
+            <button class="navbar-toggler  navbar-dark" type="button" data-toggle="collapse" 
+          data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" 
+          aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item px-4 text-center"><a class="nav-link px-4" href="sobre.html">Sobre</a></li>
+                    <li class="nav-item px-4 text-center"><a class="nav-link px-4" href="videos.html">Vídeos</a></li>
+                    <li class="nav-item px-4 text-center"><a class="nav-link px-4" href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="bg-dark p-4 conteudo">
+        <main>
+            <div class="div-branca">
+                <h1 class="text-center text-light">Contato</h1>
+                <div class="row p-5">
+                    <div class="col-md-6 text-center div-form">
+                        <form class="form-contato p-2" id="form-contato" action="#" method="post">
+                            <fieldset>
+                                <legend>Fale conosco!</legend>
+                                <div class="pb-2">
+                                    <label for="nome">Nome:</label><br />
+                                    <input id="nome" class="input-text" type="text" name="nome" required />
+                                </div>
+                                <div class="pb-2">
+                                    <label for="email">E-mail:</label><br />
+                                    <input id="email" class="input-text" type="email" name="email" required />
+                                </div>
+                                <div class="pb-2">
+                                    <label for="mensagem">Digite sua mensagem:</label><br />
+                                    <textarea id="mensagem" required></textarea>
+                                </div>
+                                <div class="pb-2">
+                                    <button type="submit">Enviar</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="col-md-6 text-center mt-5 mt-md-0">
+                        <h3>Entre em contato conosco!</h3>
+                        <address>
+                            Equipe Marília Nunes Cortes<br />
+                            contato@marilia93.com.br
+                        </address>
+                        <div class="div-redes col-sm-6 offset-sm-3">
+                            <div class="row p-2">
+                                <a class="col-6" href="https://twitter.com/marilia93" target="_blank"><img class="img-redes" src="img/redes/twitter.png" alt="Ícone Twitter" /></a>
+                                <a class="col-6" href="https://www.facebook.com/marilia93/" target="_blank"><img class="img-redes" src="img/redes/facebook.png" alt="Ícone Facebook" /></a>
+                            </div>
+                            <div class="row p-2">
+                                <a class="col-6" href="https://www.instagram.com/marilia93/" target="_blank"><img class="img-redes" src="img/redes/instagram.png" alt="Ícone Instagram" /></a>
+                                <a class="col-6" href="https://www.youtube.com/user/marilianunesc" target="_blank"><img class="img-redes" src="img/redes/youtube.png" alt="Ícone Youtube" /></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+    <footer class="text-center p-2">
+        <p class="font-weight-bold">Marília Nunes Cortes 2021 &copy;</p>
+        <p class="font-weight-bold">Todos os direitos reservados.</p>
+    </footer>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/js-bootstrap/bootstrap.bundle.js"></script>
+</body>
+</html>
